@@ -1,6 +1,6 @@
 {
-    "name": "ᎯℕUℛᎯᎶ",
-    "description": "Clone Of ᎯℕUℛᎯᎶ & More Features Added",
+    "name": "MATIX",
+    "description": "Auto Filter Bot With Url Shortner",
     "stack": "container",
     "logo": "https://telegra.ph/file/9ee1253e36b37a1665ce2.jpg",
     "keywords": [
@@ -17,7 +17,7 @@
       "inline"
     ],
     "website": "https://github.com/AM-ROBOTS/AM-ROBOTS",
-    "repository": "https://github.com/AM-ROBOTS/AM-ROBOTS",
+    "repository": "https://github.com/Ashrafmdmatin41/AutoAnura",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
