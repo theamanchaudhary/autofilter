@@ -384,8 +384,7 @@ async def get_shortlink(link):
         link = link.replace("http", https)
     url = f'https://omegalinks.in/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
-              'url': link,
-              }
+              'url': link}
 
     try:
         async with aiohttp.ClientSession() as session:
@@ -394,6 +393,7 @@ async def get_shortlink(link):
                 if data["status"] == "success":
                     return data['shortenedUrl']
                 else:
+                    print(URL_SHORTNER_WEBSITE_API,URL_SHORTNER_WEBSITE_API,link)
                     logger.error(f"Error: {data['message']}")
                     return f'https://{URL_SHORTENR_WEBSITE}/st?api={URL_SHORTNER_WEBSITE_API}&url={link}'
 
