@@ -34,7 +34,7 @@ class script(object):
 - <a href=https://t.me/Movie_Matin>𝑀𝑂𝑉𝐼𝐸_𝑀𝐴𝑇𝐼𝑁</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and ᎯℕUℛᎯᎶ will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and 𝕄𝕒𝕥𝕚𝕩 will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. 𝕄𝕒𝕥𝕚𝕩 should have admin privillage.
