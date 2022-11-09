@@ -14,8 +14,8 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://paisakamalo.in/')
-    START_TXT = environ.get("START_TXT", "𝙷𝙴𝙻𝙾 Meri Jaan {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 From Movie Matin DB, 𝙹𝚄𝚂𝚃 Join My Group And Type And See My Power❤️❤️🔥")
+    START_TXT = """START_TXT", "𝙷𝙴𝙻𝙾 Meri Jaan {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 From Movie Matin DB, 𝙹𝚄𝚂𝚃 Join My Group And Type And See My Power❤️❤️🔥"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}</b>
@@ -28,10 +28,10 @@ class script(object):
 <b>✮ 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://youtube.com/channel/UC80IWL40N21zeY3pXriAOIg>𝕄𝕒𝕥𝕚𝕩_𝕋𝔾</a></b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝕄𝕒𝕥𝕚𝕩 is a not open source project. 
-- Source - https://github.com/AM-ROBOTS/AM-ROBOTS
+- Source - https://t.me/AboutMdMatinAshraf
 
 <b>DEVS:</b>
-- <a href=https://t.me/Am_RoBots>ᴀᴍ_ᴛᴇᴄʜ</a>"""
+- <a href=https://t.me/Movie_Matin>𝑀𝑂𝑉𝐼𝐸_𝑀𝐴𝑇𝐼𝑁</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᎯℕUℛᎯᎶ will respond whenever a keyword is found the message
@@ -56,7 +56,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Am_RoBots)</code>
+<code>[Button Text](buttonurl:https://t.me/Movie_Matin)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
