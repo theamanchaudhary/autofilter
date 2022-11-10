@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/jarwisai/autofilter /autofilter
+  git clone https://github.com/Ashrafmdmatin41/autofilter /autofilter
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /autofilter
