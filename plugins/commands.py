@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/updatebymatin')
             ],
             [
-                InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url=f"https://youtube.com/channel/UC80IWL40N21zeY3pXriAOIg"),
+                InlineKeyboardButton('⚡ Join ⚡', url=f"https://t.me/Movie_Matin"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/channel/UC80IWL40N21zeY3pXriAOIg'),
+            InlineKeyboardButton('⚡ Join ⚡', url='https://t.me/Movie_Matin'),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/updatebymatin')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
@@ -93,7 +93,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/channel/UC80IWL40N21zeY3pXriAOIg'),
+            InlineKeyboardButton('⚡ Join ⚡', url='https://t.me/Movie_Matin'),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/updatebymatin')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UC80IWL40N21zeY3pXriAOIg') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝑵𝒆𝒘 𝑴𝒐𝒗𝒊𝒆𝒔', url='https://t.me/+dFOulwMYXdJmZTFl') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
