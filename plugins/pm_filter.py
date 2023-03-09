@@ -109,7 +109,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://youtu.be/FAqTq5YZIoI')
+            InlineKeyboardButton(text="📥ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ📥", url='https://t.me/How_to_open_vivdisk/4')
         ]
     )
 
@@ -436,7 +436,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/channel/UC80IWL40N21zeY3pXriAOIg'),
+            InlineKeyboardButton('⚡ Join ⚡', url='https://t.me/Movie_Matin'),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/updatebymatin')
         ], [
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
@@ -689,7 +689,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://youtu.be/FAqTq5YZIoI')
+            InlineKeyboardButton(text="📥ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ📥", url='https://t.me/How_to_open_vivdisk/4')
         ]
     )
 
