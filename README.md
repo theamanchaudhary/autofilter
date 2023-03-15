@@ -10,16 +10,6 @@
 - ⟴ Custom URL Buttons (Updates channel, Add To Group, Force Sub, More...)
 
 
-
-
-<p align="center">
-  <img src="https://github.com/AM-ROBOTS/AdvAnurag/blob/main/assets/logo.jpg" alt="Anurag Logo">
-</p>
-<h1 align="center">
-  <b>ᎯℕUℛᎯᎶ</b>
-</h1>
-
-
 [![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/AM-ROBOTS/AdvAnurag/stargazers)
 [![Forks](https://img.shields.io/github/forks/EvamariaTG/EvaMaria?style=flat-square&color=orange)](https://github.com/AM-ROBOTS/AdvAnurag/fork)
 [![Size](https://img.shields.io/github/repo-size/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/AM-ROBOTS/AdvAnurag/)   
@@ -130,15 +120,15 @@ link - to create link for one post
 ```
 ## Support
 [![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/sources_cods)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/MOVIES_ZILAA)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/MOVIE_Matin)
 
 ## Credits 
-* [![ᎯℕUℛᎯᎶ](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/sources_cods)
+* [!Matin](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/sources_cods)
 
 
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To [ᎯℕUℛᎯᎶ](https://telegram.dog/gurubhai11) for Their Awesome [Unlimited Filter Bot](https://t.me/BetterFilters_Ro_Bot) And [AutoFilterBoT](https://github.com/am-robots/Anurag)
+ - Thanks To [Matin](https://telegram.dog/Md_Matin_Ashraf) for Their Awesome [Unlimited Filter Bot](https://t.me/Newmoviesstockbot) And [AutoFilterBoT]
  - Thanks To All Everyone In This Journey
 
 ### Note
@@ -152,4 +142,4 @@ Licensed under [GNU AGPL 2.0.](https://github.com/AM-ROBOTS/AdvAnurag/blob/main/
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 ## Contact Support 
-🙃[Support](https://telegram.dog/Technical_Help_Support_Bot)
+🙃[Support](https://telegram.dog/Md_Matin_Ashraf)
