@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Newmoviesstockbot')
-API_ID = int(environ.get('API_ID', '15236804'))
-API_HASH = environ.get('API_HASH', '409da5b68ad699091fa72b381921f0e5')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5463667641:AAELjjGcxU6fuJoEXYdw34ve5z5WIylrufs')
+SESSION = environ.get('SESSION', 'auto_filter_v21_bot')
+API_ID = int(environ.get('API_ID', '29659504'))
+API_HASH = environ.get('API_HASH', '6a13d953620a0cf179ccf8dc81ccd7d5')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6275129295:AAGBxH76s6nP5MsgB_SdwHdGmKZUZrWWGIU')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -22,22 +22,22 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/553bcad466114df8173f2.jpg https://telegra.ph/file/ca1ae5ed6c52febf83524.jpg https://telegra.ph/file/b1cc4f0cacb15e82d1892.jpg https://telegra.ph/file/8a3dfc8e861975ddd0826.jpg https://telegra.ph/file/43c6093bfeaa1ac7a7cab.jpg https://telegra.ph/file/3b909f7f60a5cf966f08f.jpg https://telegra.ph/file/c8d222d3141e23ce18998.jpg https://telegra.ph/file/38b13cb1fe22f02c3c7ee.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1963114305').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5674333293').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5674333293').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('-1001764312434')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Movie:qaz1qaz1qaz1@cluster0.w9eucbv.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://theamanchaudhary:amanbhaisingh@cluster0.ktnefe5.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('-1001910513374', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'sources_cods')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -49,7 +49,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001837860287')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
@@ -68,21 +68,21 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'mplaylink.com')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'de21dbefae7a07cd1f767ca60b6fa0be8c0eeecf')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'oggylink.com')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '9ca0052a6890f377b8d47f6076b9f27b2fb68327')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 40))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 200))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/How_to_open_vivdisk/4"
+DOWNLOAD_TEXT_URL = "https://t.me/howto_open_oggylink"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "𝑵𝒆𝒘 𝑴𝒐𝒗𝒊𝒆𝒔"
-CAPTION_BUTTON_URL = "https://t.me/+dFOulwMYXdJmZTFl"
+CAPTION_BUTTON_URL = "https://t.me/+mwclZHpNp3BmOTk1"
 
    # Auto Delete For Bot Sending Files #
