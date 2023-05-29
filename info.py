@@ -83,6 +83,6 @@ DOWNLOAD_TEXT_URL = "https://t.me/howto_open_oggylink"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "𝑵𝒆𝒘 𝑴𝒐𝒗𝒊𝒆𝒔"
-CAPTION_BUTTON_URL = "https://t.me/+mwclZHpNp3BmOTk1"
+CAPTION_BUTTON_URL = "https://t.me/+xVaVeEJDZeM5Yjg1"
 
    # Auto Delete For Bot Sending Files #
