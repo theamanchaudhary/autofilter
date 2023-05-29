@@ -382,7 +382,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://mplaylink.com/api'
+    url = f'https://oggylink.com/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link}
 
