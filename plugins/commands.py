@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Join ⚡', url='https://t.me/Movie_Matin'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/updatebymatin')
+            InlineKeyboardButton('⚡ Join ⚡', url='https://t.me/rampagebackup'),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/rampagebackup')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Join ⚡', url='https://t.me/Movie_Matin'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/updatebymatin')
+            InlineKeyboardButton('⚡ Join ⚡', url='https://t.me/rampagebackup'),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/rampagebackup')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
