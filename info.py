@@ -68,8 +68,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'oggylink.com')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '9ca0052a6890f377b8d47f6076b9f27b2fb68327')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'mplaylink.com')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '7fbfdc2c82fb565c2844ce1c6116826422ebcdb1')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 200))
@@ -79,10 +79,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/howto_open_oggylink"
+DOWNLOAD_TEXT_URL = "https://t.me/howto_open_Teraboxlink/6"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "𝑵𝒆𝒘 𝑴𝒐𝒗𝒊𝒆𝒔"
-CAPTION_BUTTON_URL = "https://t.me/+xVaVeEJDZeM5Yjg1"
+CAPTION_BUTTON_URL = "https://t.me/+3hIjGBBtyOw4OWZl"
 
    # Auto Delete For Bot Sending Files #
